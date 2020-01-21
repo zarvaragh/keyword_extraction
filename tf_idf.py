@@ -193,7 +193,6 @@ def sort_coo(coo_matrix):
 
 def extract_topn_from_vector(feature_names, sorted_items, topn=10):
   
-
     # use only topn items from vector
     sorted_items = sorted_items[:topn]
 
